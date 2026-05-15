@@ -1,0 +1,43 @@
+{
+  "name": "@deevid-ai/deevid-cli",
+  "version": "0.1.0",
+  "description": "DeeVid OpenAPI CLI for AI media and agent workflows",
+  "license": "MIT",
+  "homepage": "https://github.com/deevid-dev/deevid-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deevid-dev/deevid-skills.git",
+    "directory": "deevid-skill"
+  },
+  "bugs": {
+    "url": "https://github.com/deevid-dev/deevid-skills/issues"
+  },
+  "keywords": [
+    "deevid",
+    "openapi",
+    "cli",
+    "codex",
+    "skill",
+    "ai-video",
+    "ai-image",
+    "avatar"
+  ],
+  "bin": {
+    "deevid": "bin/deevid.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "check": "node --check bin/deevid.js"
+  }
+}
